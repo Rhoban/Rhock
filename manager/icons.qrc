@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>img/robot.png</file>
+        <file>img/play.png</file>
+        <file>img/stop.png</file>
+        <file>img/refresh.png</file>
+        <file>img/repeat.png</file>
+    </qresource>
+</RCC>
