@@ -4,7 +4,7 @@
 .thread
 waiter:
 wait 1
-push "event"
+push "event received"
 call prints
 call println
 load 0
