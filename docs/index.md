@@ -8,3 +8,5 @@ to contact us for more information.
 * [Object files](obj.md)
 * [Contet and data](context.md)
 * [Core instructions](instructions.md)
+* [Binary protocol](protocol.md)
+
