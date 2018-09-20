@@ -174,6 +174,18 @@ namespace Rhock
         }
     }
 
+    std::vector<unsigned char> As::getBinaryBytes()
+    {
+        auto str = getBinary();
+        std::vector<unsigned char> bytes;
+
+        for (int k=0; k<str.size(); k++) {
+            bytes.push_back(str[k]&0xff);
+        }
+
+        return bytes;
+    }
+
     std::string As::getBinary()
     {
         rhock_set_id(&obj, id);

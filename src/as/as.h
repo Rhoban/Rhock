@@ -57,6 +57,7 @@ namespace Rhock
             void assembleFile(std::string filename);
             void assemble(std::string inputData);
             std::string getBinary();
+            std::vector<unsigned char> getBinaryBytes();
             void writeFile(std::string filename);
             void parseFile(std::string filename);
 

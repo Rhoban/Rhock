@@ -96,5 +96,10 @@ EMSCRIPTEN_BINDINGS(rhock) {
         .function("process", &As::processError)
         .function("resolve", &As::resolveSymbolsError)
         .function("getBinary", &As::getBinary)
+        .function("getBinaryBytes", &As::getBinaryBytes)
         ;
+}
+
+EMSCRIPTEN_BINDINGS(stl_wrappers) {
+    register_vector<unsigned char>("VectorChar");
 }
